@@ -166,7 +166,14 @@ return [
         /*
          * Package Service Providers...
          */
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
+        Cviebrock\EloquentSluggable\ServiceProvider::class,
+        DaveJamesMiller\Breadcrumbs\ServiceProvider::class,
         Frozennode\Administrator\AdministratorServiceProvider::class,
+        Laravel\Socialite\SocialiteServiceProvider::class,
+        Maknz\Slack\SlackServiceProvider::class,
+        Roumen\Sitemap\SitemapServiceProvider::class,
 
         /*
          * Application Service Providers...

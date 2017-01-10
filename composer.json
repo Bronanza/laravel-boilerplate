@@ -15,7 +15,8 @@
         "roumen/sitemap": "^2.6",
         "intervention/image": "^2.3",
         "barryvdh/laravel-ide-helper": "^2.2",
-        "squizlabs/php_codesniffer": "^2.7"
+        "squizlabs/php_codesniffer": "^2.7",
+        "laravel/socialite": "^2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
